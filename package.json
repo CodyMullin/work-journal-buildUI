@@ -10,10 +10,12 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@prisma/client": "^5.6.0",
     "@remix-run/css-bundle": "^2.3.1",
     "@remix-run/node": "^2.3.1",
     "@remix-run/react": "^2.3.1",
     "@remix-run/serve": "^2.3.1",
+    "date-fns": "^2.30.0",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -21,9 +23,14 @@
   "devDependencies": {
     "@remix-run/dev": "^2.3.1",
     "@remix-run/eslint-config": "^2.3.1",
+    "@tailwindcss/forms": "^0.5.7",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.38.0",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "prisma": "^5.6.0",
+    "tailwindcss": "^3.3.5",
     "typescript": "^5.1.6"
   },
   "engines": {
